@@ -1,0 +1,125 @@
+.service1{
+    display: flex;
+    gap:1.5rem
+}
+.wp{
+    padding: 100px;
+    
+}
+.services{
+    display: flex;
+}
+.wp > h3{
+    font-family: 'Muli';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #A3A3A3;
+
+}
+
+.wp > h2{
+    font-family: 'Cormorant Infant';
+font-style: italic;
+font-weight: 500;
+font-size: 55px;
+line-height: 67px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #333333;
+
+}
+.desc > h4{
+    font-family: 'Cormorant Infant';
+font-style: italic;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #333333;
+}
+
+.desc > p{
+    font-family: 'Muli';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 30px;
+/* or 214% */
+
+display: flex;
+align-items: center;
+
+color: #333333;
+
+}
+.service6{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    display: flex;
+    gap:1.5rem
+}
+.services{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px ;
+    column-gap: 400px;
+   row-gap: 50px;
+   
+   
+}
+
+.bookservice{
+
+
+
+width: 294px;
+height: 63px;
+
+
+color: azure;
+background: #FC3C3C;
+}
+.contactus{
+    width: 294px;
+height: 63px;
+    background-color: white;
+    color: #FC3C3C;
+    
+}
+
+.buttons{
+    display: flex;
+  gap: 2rem;
+  padding-left: 300px;
+  padding-top: 100px;
+}
+.send_message{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 83px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 288px;
+    height: 63px;
+    left: 454px;
+  
+    
+    background: #FC3C3C;
+}

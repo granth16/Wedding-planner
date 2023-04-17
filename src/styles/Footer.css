@@ -1,0 +1,12 @@
+.footer > h2{
+   margin-bottom: 1000px;
+    color: white;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+}
+.bg{
+    margin-bottom: 10000px;
+}

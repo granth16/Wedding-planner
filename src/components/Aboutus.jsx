@@ -12,43 +12,25 @@ const Aboutus = () => {
         </div>
         <div className="about_right">
           <h2>Let's Plan Your Perfect</h2>
-          <br></br>
-          <h2>Wedding</h2>
-          <br></br>
-          <span>We're here to serve you, step-by-step</span>
           <br />
-          <br />
-          <span>
-            Many people create notes on a computer and print them or send them
-          </span>
-          <br />
-          <span>
-            through the internet.However I believe the most effective notes are
-          </span>
-          <br />
-          <span>
-            handwritten.A handwritten note is personal and rare.Due to this, it
-            will be
-          </span>
-          <br />
-          <span>given more attention</span>
-          <br /> <br />
-          <span>
-            A few weeks ago I was in Michigan for my dad's funeral.While there I
-          </span>
-          <br />
-          <span>
-            attended my mom's church on Sunday and met her pastor for the second
-          </span>
-          <span>time.</span>
-        </div>
-      </div>
-      <div className="arrow">
-        <div className="arrowleft">
-          <img src={left_arrow} alt="" />
-        </div>
-        <div className="arrowright">
-          <img src={right_arrow} alt="" />
+          <h2 className="margin_b">Wedding</h2>
+
+          <div className="about_right_quotes">
+            <span>We're here to serve you, step-by-step</span>
+
+            <p>
+              Many people create notes on a computer and print them or send them
+              through the internet. However, I believe the most effective notes
+              are handwritten. A handwritten note is personal and rare. Due to
+              this, it will be given more attention.
+            </p>
+
+            <p>
+              A few weeks ago I was in Michigan for my dad's funeral. While
+              there I attended my mom's church on Sunday and met her pastor for
+              the second time.
+            </p>
+          </div>
         </div>
       </div>
     </div>

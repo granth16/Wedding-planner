@@ -20,10 +20,10 @@ function App() {
       {/* <Welcome /> */}
       <Header />
       <Aboutus />
-      <WeddingPlanning />
+      {/* <WeddingPlanning />
       <RealWeddings />
       <ContactUs />
-      <Footer />
+      <Footer /> */}
     </>
   );
 }

@@ -7,11 +7,7 @@ const Header = () => {
       <div className="nav_inner">
         <div className="nav_left">
           <h2>
-            Cro{" "}
-            <span>
-              <img className="logo_icon" src={logo} alt="logo" />{" "}
-            </span>
-            n<span>Plan</span>
+            Crown<span>Plan</span>
           </h2>
         </div>
         <div className="nav_right">

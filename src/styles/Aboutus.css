@@ -1,70 +1,76 @@
-.aboutus_body{
-    display: flex;
-   
-    
-}
-.about_left{
-    margin-right: 25px;
-}
-.aboutus{
-    padding: 50px 100px;
-}
-.aboutus > h3{
-    margin: 50px 75px;
-    font-family: 'Quicksand';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 22px;
-/* identical to box height */
-
-display: flex;
-align-items: center;
-
-color: #A3A3A3;
+.aboutus {
+  padding: 5rem 6rem;
 }
 
-.about_right > h2{
-    
-    font-family: 'Cormorant Infant';
-font-style: italic;
-font-weight: 500;
-font-size: 55px;
-line-height: 67px;
-display: flex;
-align-items: center;
-margin-top: 20px;
-
-color: #333333;
-
+.aboutus_body {
+  display: flex;
+  align-items: center;
+  margin: 4rem 0;
 }
-.about_right > span{
-    font-family: 'Muli';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 32px;
-    /* or 200% */
-    
-    
-    color: #333333;
-
+.about_left {
+  width: 100%;
+  height: 100%;
 }
 
-.about_left > img{
-    
-width: 606px;
-height: 439px;
-filter: drop-shadow(2px 2px 17px rgba(0, 0, 0, 0.17));
+.aboutus > h3 {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 500;
+  margin-left: 10rem;
+  font-size: 1.2rem;
+  line-height: 22px;
+  /* identical to box height */
+  color: #a3a3a3;
+}
 
+.about_right {
+  width: 100%;
 }
-.arrow{
-    display: flex;
+
+.about_right > h2 {
+  font-family: "Cormorant Infant";
+  font-style: italic;
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 3.5rem;
+
+  color: #333333;
 }
-.arrowright{
-    margin-left: 50%;
-    margin-right: 50%;
+
+.about_right_quotes {
+  color: #333333;
+  line-height: 1.4rem;
+  margin: 1.2rem 0;
 }
-.arrowleft{
-    margin-left: 40%;
+
+.about_right_quotes > span {
+  line-height: 4rem;
+}
+
+.about_right_quotes p {
+  font-family: Mulish;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 2rem;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0.5rem 0;
+  width: 100%;
+  max-width: 31rem;
+}
+
+.about_left > img {
+  width: 52rem;
+  height: 30rem;
+  filter: drop-shadow(2px 2px 17px rgba(0, 0, 0, 0.17));
+}
+.arrow {
+  display: flex;
+}
+.arrowright {
+  margin-left: 50%;
+  margin-right: 50%;
+}
+.arrowleft {
+  margin-left: 40%;
 }

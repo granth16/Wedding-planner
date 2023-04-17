@@ -1,31 +1,25 @@
-.nav{
-    border: 1px solid red;
-
+.nav {
+  border: 1px solid red;
 }
 
-.nav_inner{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding:2.5rem;
+.nav_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5rem;
 }
 
-.nav_right > ul{
-    display: flex;
-   gap: 2rem;
-    
+.nav_right > ul {
+  display: flex;
+  gap: 2rem;
 }
 
-.nav_left{
-    display: flex;
-    align-items: center;
-
+.nav_left {
+  display: flex;
+  align-items: center;
 }
 
-.nav_left > h2 > span > img{
-    height: 2rem;
-    width: 2rem;
-  
+.nav_left > h2 > span > img {
+  height: 2rem;
+  width: 2rem;
 }
-
-

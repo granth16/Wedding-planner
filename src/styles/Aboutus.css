@@ -6,6 +6,7 @@
   display: flex;
   align-items: center;
   margin: 4rem 0;
+  gap: 1rem;
 }
 .about_left {
   width: 100%;
@@ -60,7 +61,7 @@
 }
 
 .about_left > img {
-  width: 52rem;
+  width: 40rem;
   height: 30rem;
   filter: drop-shadow(2px 2px 17px rgba(0, 0, 0, 0.17));
 }

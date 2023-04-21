@@ -17,9 +17,9 @@ import RealWeddings from "./components/RealWeddings";
 function App() {
   return (
     <>
-      {/* <Welcome /> */}
       <Header />
-      <Aboutus />
+      <Welcome />
+      {/* <Aboutus /> */}
       {/* <WeddingPlanning />
       <RealWeddings />
       <ContactUs />

@@ -19,7 +19,7 @@ function App() {
     <>
       <Header />
       <Welcome />
-      {/* <Aboutus /> */}
+      <Aboutus />
       {/* <WeddingPlanning />
       <RealWeddings />
       <ContactUs />

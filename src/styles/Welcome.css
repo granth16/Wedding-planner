@@ -1,3 +1,75 @@
+/* USING CSS TO DISPLAY THE MAIN-HERO BG */
 .welcome {
-  border: 1px solid red;
+  width: 100%;
+  background-image: url("/images/herobg.png");
+  width: 100vw;
+  height: 75vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.welcome_inner {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+  padding: 10rem 15rem;
+}
+
+/* WELCOME SECTION */
+
+/* WELCOME SECTION LEFT*/
+.welcome_left {
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+}
+
+.welcome_left_top {
+  font-family: Mulish;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+}
+.welcome_left_bottom {
+  font-family: Cormorant Infant;
+  font-size: 6rem;
+  font-style: italic;
+  font-weight: 600;
+  margin: 6rem 0;
+  line-height: 5.5rem;
+  max-width: 30rem;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.btn_more {
+  font-family: Quicksand;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 19rem;
+  height: 4rem;
+  cursor: pointer;
+  background: #fc3c3c;
+  color: white;
+  border: none;
+}
+
+/* WELCOME SECTION RIGHT*/
+.welcome_right {
+}
+
+.welcome_right_quote P {
+  font-family: Mulish;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: center;
 }

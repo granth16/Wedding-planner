@@ -1,90 +1,86 @@
 import React from "react";
-import checklist from "/svg/checklist-icon.svg";
-
+import logo from "/svg/checklist-icon.svg";
 const WeddingPlanning = () => {
   return (
-    <div className="wp">
-      <h3>WEDDING PLANNING</h3>
-      <br /> <br />
-      <h2>Services</h2>
-      <br /> <br /> <br />
-      <div className="services">
-        <div className="service1">
-          <div className="icon">
-            <img src={checklist} alt="" />
+    <div>
+      <div className="header">
+        <h4>WEDDING PLANNING</h4>
+        <h2>Services</h2>
+      </div>
+      <div className="container">
+        <div className="item">
+          <div className="item-left">
+            <img className="image" src={logo} alt="" />
           </div>
-          <div className="desc">
-            <h4>Checklist</h4>
-            <br />
-            <p>The ultimate wedding checklist</p>
-            <p>to make sure everything gets done</p>
-          </div>
-        </div>
-        <div className="service1">
-          <div className="icon">
-            <img src={checklist} alt="" />
-          </div>
-          <div className="desc">
-            <h4>Checklist</h4>
-            <br />
-            <p>The ultimate wedding checklist</p>
-            <p>to make sure everything gets done</p>
+          <div className="item-right">
+            <span>Checklist</span>
+            <p>
+              The ultimate wedding checklist to make sure everything gets done
+            </p>
           </div>
         </div>
-        <div className="service1">
-          <div className="icon">
-            <img src={checklist} alt="" />
+        <div className="item">
+          <div className="item-left">
+            <img className="image" src={logo} alt="" />
           </div>
-          <div className="desc">
-            <h4>Checklist</h4>
-            <br />
-            <p>The ultimate wedding checklist</p>
-            <p>to make sure everything gets done</p>
-          </div>
-        </div>
-
-        <div className="service1">
-          <div className="icon">
-            <img src={checklist} alt="" />
-          </div>
-          <div className="desc">
-            <h4>Checklist</h4>
-            <br />
-            <p>The ultimate wedding checklist</p>
-            <p>to make sure everything gets done</p>
+          <div className="item-right">
+            <span>Checklist</span>
+            <p>
+              The ultimate wedding checklist to make sure everything gets done
+            </p>
           </div>
         </div>
-        <div className="service1">
-          <div className="icon">
-            <img src={checklist} alt="" />
+        <div className="item">
+          <div className="item-left">
+            <img className="image" src={logo} alt="" />
           </div>
-          <div className="desc">
-            <h4>Checklist</h4>
-            <br />
-            <p>The ultimate wedding checklist</p>
-            <p>to make sure everything gets done</p>
+          <div className="item-right">
+            <span>Checklist</span>
+            <p>
+              The ultimate wedding checklist to make sure everything gets done
+            </p>
           </div>
         </div>
-        <div />
-
-        <div className="service6">
-          <div className="icon">
-            <img src={checklist} alt="" />
+        <div className="item">
+          <div className="item-left">
+            <img className="image" src={logo} alt="" />
           </div>
-          <div className="desc">
-            <h4>Checklist</h4>
-            <br />
-            <p>The ultimate wedding checklist</p>
-            <p>to make sure everything gets done</p>
+          <div className="item-right">
+            <span>Checklist</span>
+            <p>
+              The ultimate wedding checklist to make sure everything gets done
+            </p>
+          </div>
+        </div>
+        <div className="item">
+          <div className="item-left">
+            <img className="image" src={logo} alt="" />
+          </div>
+          <div className="item-right">
+            <span>Checklist</span>
+            <p>
+              The ultimate wedding checklist to make sure everything gets done
+            </p>
+          </div>
+        </div>
+        <div className="item">
+          <div className="item-left">
+            <img className="image" src={logo} alt="" />
+          </div>
+          <div className="item-right">
+            <span>Checklist</span>
+            <p>
+              The ultimate wedding checklist to make sure everything gets done
+            </p>
           </div>
         </div>
       </div>
       <div className="buttons">
-        <button color="white" className="bookservice">
-          BOOK SERVICE
+        <button className="bookservice">
+          <span className="button1">BOOK SERVICE</span>
         </button>
-        <button color="red" className="contactus">
-          CONTACT US
+        <button className="contactus">
+          <span className="button2">CONTACT US</span>
         </button>
       </div>
     </div>
